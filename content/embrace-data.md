@@ -8,8 +8,8 @@ We are all surrounded by data, even when we don't know it we are being monitored
 your phone, your tv and even your fridge (if you have one of  those fridges with cameras and tablet in front). 
 
 Now what happens to this data that are constantly being saved? Well they usually go to a company like Google or Facebook
-to be then sold to other companies to gain money from ads and other profitable ways to target select group of people. 
-But this is not a post complaining about "how we are all being montitored by the goverment" or some other paranoid way 
+to then be sold to other companies to gain money from ads and other profitable ways to target select group of people. 
+But this is not a post complaining about "how we are all being monitored by the government" or some other paranoid way 
 of thinking. 
 This is about how I took control over this matter and instead of stop using these services I used the data that they all
 collect and profit from and released it for free, to all people around the world.
@@ -25,7 +25,7 @@ But in general, certain information about you is always available to anyone.
 With this model, privacy is not dead, you can still cheat on your wife without her knowing, well at least for a little while(they all find out eventually)
 and you still feel safe and secure.
 
-In a way to both be true to the "swedish model" of privacy and be as open to everyone around me as possible I have decided
+In a way to both be true to the "Swedish model" of privacy and be as open to everyone around me as possible I have decided
 to release as much information about myself in various forms. This will obviously exclude some type of data that may harm
 me directly such as banking and credit card information but I will try and be as transparent as possible if data has been altered
 or removed for certain reasons.
