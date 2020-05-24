@@ -37,6 +37,8 @@ This all being available to you with an interactive graph and dashboard over at 
 This is mainly historical data, being updated every day. So the information that you can see over at the link above will be 
 from yesterday and backwards in time starting from 2020-05-20 and hopefully a long time into the future.
 
+<img src="/images/posts/embrace-collected-data-01.png" alt="Graph of heart rate, amount of sleep and amount of steps" width="700"/>
+
 The information that is shown on [health.andreasbackstrom.se](https://health.andreasbackstrom.se) is data collected from a
 Fitbit Charge 3 that I wear almost all the time (except for when I shower) and the data is automatically retrieved from the Fitbit APIs and stored on
 my servers at a daily basis. Nothing is removed or altered.
