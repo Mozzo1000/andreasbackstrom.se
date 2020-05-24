@@ -1,8 +1,8 @@
 ---
-title: Embrace data
+title: Embrace collected data
 author: Andreas Backström
 date: 2020-05-24
-slug: embrace-data
+slug: embrace-collected-data
 ---
 We are all surrounded by data, even when we don't know it we are being monitored and measured by a device. This can be 
 your phone, your tv and even your fridge (if you have one of  those fridges with cameras and tablet in front). 
