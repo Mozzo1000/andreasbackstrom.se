@@ -67,7 +67,7 @@ body {
 	max-width: 720px;
 	height: 100%;
 	box-sizing: border-box;
-	padding: 100px;
+	padding: 50px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -87,7 +87,7 @@ body {
 }
 
 .footer {
-	position: fixed;
+    position: fixed;
 	left: 0;
 	bottom: 0;
 	width: 100%;
@@ -99,7 +99,7 @@ body {
 
 .navbar {
 	margin: auto;
-	width: 20%;
+	max-width: 30%;
 	text-align: center;
 	padding-bottom: 20px;
 	border-bottom: solid #F2F4F5;
@@ -108,7 +108,7 @@ body {
 .navbar ul {
     list-style-type: none;
     margin: 0;
-    padding: 20px 0 0 20px;
+    padding: 20px 0 0 0;
 	font-size: 1.4em;
 
 }
@@ -120,9 +120,9 @@ body {
 
 .navbar li a {
 	text-align: center;
-	padding: 14px 16px;
 	text-decoration: none;
 	color: gray;
+	padding: 0px 10px 0 10px;
 }
 
 .navbar li a:hover {
@@ -192,4 +192,16 @@ p {
 
 img {
     max-width: 100%;
+}
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3) {
+
+    .footer {
+        position: static;
+}
+
 }
