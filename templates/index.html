@@ -3,8 +3,12 @@
 
 {% block content %}
 <div id="content">
-    <img id="profile" src="images/profile.png" alt="Profile picture">
-	<h1>Andreas Backström</h1>
+    <picture>
+        <source id="profile" srcset="images/profile.webp" type="image/webp">
+        <source id="profile" srcset="images/profile.jpg" type="image/jpeg">
+        <img id="profile" src="images/profile.jpg" alt="Picture of Andreas Backström">
+    </picture>
+    <h1>Andreas Backström</h1>
     <p>Helping the world become a better place by actively working on recycling and reusing issues in the higher education and IT sector.</p>
 	<a href="https://twitter.com/SimplyMozzo" target="_blank"><i class="social icon-twitter color-blue" title="Twitter | my thoughts"></i></a>
     <a href="https://github.com/Mozzo1000" target="_blank"><i class="social icon-github-circled color-purple" title="Github | open-source code"></i></a>
