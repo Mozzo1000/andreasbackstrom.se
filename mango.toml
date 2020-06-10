@@ -1,0 +1,17 @@
+[general]
+title = "Andreas Backström"
+base_url = "https://andreasbackstrom.se"
+
+[build]
+content_folder = "content"
+template_folder = "templates"
+output_folder = "output"
+output_post_folder = "output/posts"
+static_folder = "static"
+
+[sitemap]
+use_html_extension = "False"
+
+[server]
+host = "localhost"
+port = 8080
