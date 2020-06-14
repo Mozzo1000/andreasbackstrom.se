@@ -2,7 +2,29 @@
 {% block title %}Home{% endblock %}
 {% block description %}Helping the world become a better place by actively working on recycling and reusing issues in the higher education and IT sector.{% endblock %}
 
-
+{% block head %}
+        <script type="application/ld+json">
+        {
+          "@context": "https://schema.org/",
+          "@type": "Person",
+          "name": "Andreas Backström",
+          "url": "https://andreasbackstrom.se",
+          "image": "https://andreasbackstrom.se/images/profile.png",
+          "sameAs": [
+            "https://www.facebook.com/andreas.backstrm/",
+            "https://twitter.com/SimplyMozzo",
+            "https://www.instagram.com/andreas.backstrm/",
+            "https://www.linkedin.com/in/andreas-backstr%C3%B6m-629902104/",
+            "https://github.com/Mozzo1000"
+          ],
+          "jobTitle": "Support technician IT",
+          "worksFor": {
+            "@type": "Organization",
+            "name": "Chalmers University of Technology"
+          }
+        }
+        </script>
+{% endblock %}
 {% block content %}
 <div id="content">
     <picture>
