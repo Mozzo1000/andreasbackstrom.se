@@ -4,4 +4,4 @@ A list of ideas I might want to write about
 * [ ] Mango - a overview of a custom static site generator
 * [ ] Planning my dream tech controlled home
 * [ ] Samsungs overall lack of enviromental care
-* [ ] Tracking how much I go to the bathroom
+* [x] Tracking how much I go to the bathroom
