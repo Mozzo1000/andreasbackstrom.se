@@ -15,7 +15,6 @@ As of writing, I have 42 repositories on github. Out of these 42 I can maybe say
 Setting expectations are not only importartant for others but also yourself. Expectations makes everyone understand what you get with a project and what will be done in the future. Will you be adding new features continously or will you only be updating dependencies to keep everything secure?
 
 
-
 #### 1.1 Write in the readme
 A great example of this is what <a href="https://github.com/ssddanbrown" target="_blank">Dan Brown</a> does in some of <a href="https://github.com/ssddanbrown/rss#low-maintenance-project" target="_blank">his projects</a>.
 
@@ -51,6 +50,11 @@ With Github you can use the <a href="https://docs.github.com/en/repositories/arc
 A license will help anyone else understand what they can do with your project. If you are no longer maintaining a project and you have no license no one else can pickup the project and move it forward. 
 
 If you want somebody else to be able to work on your project, add  an appropriate license.
+
+### 5. Pin your dependencies
+It is frustrating having to deal with breaking changes in your dependencies when needing to use a project on a new machine. Having not worked with the code in a while adds to the frustration as you may not be familiar enoguh in order to quickly fix the issue. 
+
+This is why you should pin all your dependencies to the exact version that you know your project works with. This will require you to update the versions from time to time but in the long run your project will still work the same way as intended. 
 
 <hr>
 ## Maintenance status specification DRAFT
