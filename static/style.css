@@ -1,10 +1,10 @@
 html, body, div, span, applet, object, iframe,
 blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
+a, abbr, acronym, address, big, cite,
 del, dfn, em, ins, kbd, q, s, samp,
 strike, sub, sup, tt, var,
 b, u, i, center,
-dl, dt, dd, ol, ul, li,
+dl, dt, dd, ol,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed,
@@ -192,6 +192,22 @@ p {
 
 img {
     max-width: 100%;
+}
+
+code {
+	display: block;
+	font-family: monospace;
+  	font-size: 16px;
+  	color: #000000;
+	white-space: pre;
+  	background-color: #f8f8f8;
+	-webkit-overflow-scrolling: touch;
+	overflow-x: scroll;
+	max-width: 100%;
+	min-width: 100px;
+  	padding: 10px;
+  	border: 1px solid #dfe2e5;
+  	border-radius: 5px;
 }
 
 /* Portrait and Landscape */

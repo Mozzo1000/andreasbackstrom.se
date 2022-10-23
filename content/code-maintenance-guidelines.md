@@ -27,11 +27,11 @@ Badges are a great way to symbolize your intent and status of the project. Put t
 
 <img src="https://img.shields.io/badge/maintenance-updates%20only-informational"/>
 
-Code: ```<img src="https://img.shields.io/badge/maintenance-updates%20only-informational"/>```
+```<img src="https://img.shields.io/badge/maintenance-updates%20only-informational"/>```
 
 <img src="https://img.shields.io/badge/maintenance-not%20maintained-critical"/>
 
-Code: ```<img src="https://img.shields.io/badge/maintenance-not%20maintained-critical"/>```
+```<img src="https://img.shields.io/badge/maintenance-not%20maintained-critical"/>```
 
 ### 2. Automate as much as possible
 You do not want to spend your free time with doing mundane, boring tasks. Automate as much as possible.
@@ -39,7 +39,8 @@ For example, use <a href="https://github.com/dependabot" target="_blank">dependa
 
 #### 2.1 Things to consider automating
 - Outdated dependency notifying
-- Deploy on push. When pushing to github, have your production or testing server automatically update.
+- Deploy on push. 
+  - When pushing to github, have your production or testing server automatically update.
 
 ### 3. Archive old projects
 If you have old projects that you have no intention of ever updating or using again, archive it.
