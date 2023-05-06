@@ -53,6 +53,7 @@ time, mark, audio, video {
 .icon-github-circled:before { content: '\f09b'; } /* '' */
 .icon-mail-alt:before { content: '\f0e0'; } /* '' */
 .icon-linkedin-squared:before { content: '\f30c'; } /* '' */
+.icon-mastodon:before { content: '\e800'; } /* '' */
 
 body {
 	width: 100%;
@@ -171,7 +172,7 @@ body {
 }
 
 .color-purple:hover {
-	color: purple;
+	color: #563acc;
 }
 
 h1 {
