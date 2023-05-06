@@ -39,7 +39,7 @@ jobs:
         uses: actions/configure-pages@v3
       - name: Build with Mango
         run: |
-          mango . --rebuild --minify
+          python -m mango . --rebuild --minify
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
