@@ -1,6 +1,5 @@
 html, body, div, span, applet, object, iframe,
-blockquote, pre,
-a, abbr, acronym, address, big, cite,
+blockquote, pre, abbr, acronym, address, big, cite,
 del, dfn, em, ins, kbd, q, s, samp,
 strike, sub, sup, tt, var,
 b, u, i, center,
@@ -8,7 +7,7 @@ dl, dt, dd, ol,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
+figure, figcaption, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -58,41 +57,56 @@ time, mark, audio, video {
 body {
 	width: 100%;
 	height: 100%;
-	background-color: white;
-	color: black;
+	background-color: #1E1E21;
+	color: #d4d4d4;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	min-height:98vh; margin:0; position:relative;
+
 }
 
-#content {
-	text-align: center;
-	max-width: 720px;
-	height: 100%;
-	box-sizing: border-box;
+body::after {
+	content: '';
+	display: block;
+	height: 2.5rem;; /* Set same as footer's height */
+}
+
+.row {
+	display: flex;
+}
+
+.column {
+	flex: 50%;
+}
+
+.content {
+	max-width: 546px;
 	padding: 50px;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-#profile {
-	height: 200px;
-	width: 200px;
-	border-radius: 50%
+.profile {
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
 }
-#profile:hover {
+
+.profile:hover {
 	transform: scale(1.1);
 }
 
-#content ul {
+.content ul {
 	font-family:sans-serif;
 	font-size: 1.05em;
 }
 
 .footer {
-    position: fixed;
+	position: absolute;
 	left: 0;
 	bottom: 0;
 	width: 100%;
 	color: gray;
+	height: 2.5rem;
 }
 .footer p {
 	font-size: 14px;
@@ -100,10 +114,10 @@ body {
 
 .navbar {
 	margin: auto;
-	max-width: 30%;
+	max-width: 50%;
 	text-align: center;
 	padding-bottom: 20px;
-	border-bottom: solid #F2F4F5;
+	border-bottom: solid rgb(128,128,128, 0.2);
 }
 
 .navbar ul {
@@ -127,7 +141,7 @@ body {
 }
 
 .navbar li a:hover {
-	color: black;
+	color: lightgray;
 }
 
 .social {
@@ -176,7 +190,7 @@ body {
 }
 
 h1 {
-	font-size: 32px;
+	font-size: 28px;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 500;
@@ -191,34 +205,69 @@ p {
 	line-height: 20px;
 }
 
-img {
-    max-width: 100%;
-}
-
 code {
 	display: block;
 	font-family: monospace;
   	font-size: 16px;
-  	color: #000000;
+  	color: #d4d4d4;
 	white-space: pre;
-  	background-color: #f8f8f8;
+  	background-color: #1E1E21;
 	-webkit-overflow-scrolling: touch;
 	overflow-x: scroll;
 	max-width: 100%;
 	min-width: 100px;
   	padding: 10px;
-  	border: 1px solid #dfe2e5;
+  	border: 1px solid #d4d4d4;
   	border-radius: 5px;
 }
 
-/* Portrait and Landscape */
-@media only screen
-  and (min-device-width: 414px)
-  and (max-device-width: 736px)
-  and (-webkit-min-device-pixel-ratio: 3) {
 
-    .footer {
-        position: static;
+.post a {
+	background-color: #2F3235;
+	color: #6b879a;
+	font-weight: 600;
 }
 
+.post a:hover {
+	background-color: #2F3235;
+	color: #84a59d;
+	font-weight: 600;
+}
+
+@media (prefers-color-scheme: light) {
+	body {
+		background-color: #FAF8F8;
+		color: black;
+	}
+
+	.navbar {
+		border-bottom: solid #F2F4F5;
+	}
+
+	.navbar li a {
+		text-align: center;
+		text-decoration: none;
+		color: gray;
+		padding: 0px 10px 0 10px;
+	}
+
+	.navbar li a:hover {
+		color: black;
+	}
+
+	.post a {
+		background-color: #E6E6DF;
+		color: #284B63;
+	}
+
+	.post a:hover {
+		background-color: #E6E6DF;
+		color: #84a59d;
+	}
+
+	code {
+		color: #000000;
+		background-color: #f8f8f8;
+		border: 1px solid #dfe2e5;
+	}
 }
