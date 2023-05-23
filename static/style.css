@@ -222,13 +222,13 @@ code {
 }
 
 
-.post a {
+.link-colorful a {
 	background-color: #2F3235;
 	color: #6b879a;
 	font-weight: 600;
 }
 
-.post a:hover {
+.link-colorful a:hover {
 	background-color: #2F3235;
 	color: #84a59d;
 	font-weight: 600;
@@ -255,12 +255,12 @@ code {
 		color: black;
 	}
 
-	.post a {
+	.link-colorful a {
 		background-color: #E6E6DF;
 		color: #284B63;
 	}
 
-	.post a:hover {
+	.link-colorful a:hover {
 		background-color: #E6E6DF;
 		color: #84a59d;
 	}
