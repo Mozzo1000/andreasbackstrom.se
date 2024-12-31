@@ -269,6 +269,11 @@ code {
 		color: #84a59d;
 	}
 
+	.color-white:hover {
+		color: #000;
+	}
+	
+
 	code {
 		color: #000000;
 		background-color: #f8f8f8;
